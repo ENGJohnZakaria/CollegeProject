@@ -1,8 +1,155 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Menu-Mt3mna</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body></body>
+<head>
+    <title>MT3MNA - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="about.html">About Us</a>
+    <a href="Menu.html">Menu</a>
+    <a href="index.html">Login</a>
+</div>
+
+<div class="content">
+
+    <h1>Our Menu</h1>
+
+    <div class="box">
+        <h2>Burgers</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Classic Burger</td>
+                <td>Beef patty, lettuce, tomato, ketchup and mayo</td>
+                <td>45 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Cheese Burger</td>
+                <td>Beef patty with melted cheddar cheese</td>
+                <td>55 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Double Burger</td>
+                <td>Two beef patties, double cheese, special sauce</td>
+                <td>75 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Chicken Burger</td>
+                <td>Crispy fried chicken, coleslaw, pickles</td>
+                <td>60 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Spicy Burger</td>
+                <td>Beef patty with jalapenos and spicy sauce</td>
+                <td>65 EGP</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="box">
+        <h2>Sides</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> French Fries</td>
+                <td>Crispy golden fries with ketchup</td>
+                <td>20 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Onion Rings</td>
+                <td>Battered and fried onion rings</td>
+                <td>25 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Coleslaw</td>
+                <td>Fresh homemade coleslaw</td>
+                <td>15 EGP</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="box">
+        <h2>Drinks</h2>
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Soft Drink</td>
+                <td>Pepsi, 7up, or Mirinda - any size</td>
+                <td>15 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Fresh Juice</td>
+                <td>Orange, mango, or guava</td>
+                <td>25 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Milkshake</td>
+                <td>Chocolate, vanilla, or strawberry</td>
+                <td>40 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Water</td>
+                <td>Bottled water</td>
+                <td>10 EGP</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="box">
+        <h2>Meal Deals</h2>
+        <p>Add fries and a drink to any burger for only 25 EGP extra!</p>
+        <br>
+        <table>
+            <tr>
+                <th>Meal</th>
+                <th>Includes</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Classic Meal</td>
+                <td>Classic Burger + Fries + Drink</td>
+                <td>70 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Cheese Meal</td>
+                <td>Cheese Burger + Fries + Drink</td>
+                <td>80 EGP</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"> Chicken Meal</td>
+                <td>Chicken Burger + Fries + Drink</td>
+                <td>85 EGP</td>
+            </tr>
+        </table>  
+    </div>
+        <div class="order-options">
+            <h3>How would you like to receive your order?</h3>
+            <input type="radio" id="pickup" name="order_type" value="pickup">  
+                <label for="pickup">Pickup</label>
+            <input type="radio" id="delivery" name="order_type" value="delivery">  
+                <label for="delivery">Delivery</label><br>
+            <input type="submit" value="Order Now">
+        </div>  
+
+</div>
+
+<div class="footer">
+    <p>MT3MNA &copy; 2025 - Cairo, Egypt</p>
+</div>
+
+</body>
 </html>
