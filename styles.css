@@ -138,39 +138,16 @@ tr:hover {
     align-items: center;
     min-height: 80vh;
     padding: 20px;
-    gap: 40px;
-}
-
-.image-side {
-    flex: 1;
-    max-width: 500px;
-    text-align: center;
-}
-
-.image-side img {
-    width: 100%;
-    height: auto;
-    max-height: 600px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.image-side img:hover {
-    transform: scale(1.02);
-}
-
-
-.login-wrapper {
-    width: 100%;
-    max-width: 420px;
-    flex-shrink: 0;
 }
 
 .login-box {
+    width: 100%;
+    max-width: 420px;
     background-color: white;
     border: 1px solid #ccc;
     border-top: 5px solid #111;
     padding: 36px 32px;
+    box-sizing: border-box;
 }
 
 .login-box h2 {
@@ -226,7 +203,6 @@ tr:hover {
 .login-box input[type="submit"]:hover {
     background-color: #333;
 }
-
 
 .footer {
     background-color: #111;
